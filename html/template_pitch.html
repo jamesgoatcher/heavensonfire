@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<!-- BLOG TEMPLATE: Pitch -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="japan, korea, south korea, taiwan, china, usa, los angeles, travel, blog, mukbang, tokyo, nagoya, gifu, ibaraki, ushiku, hitachinaka, yokohama, kamakura, chigasaki, seoul, busan, boseong, jinhae, jeonju, gyeongju, pohang, cheongju, daegu, incheon, daibutsu, big buddha, flower field, kinfolk, art">
+	<meta name="description" content="J + A">
+	<meta name="author" content="http://jamesgoatcher.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../../../styles/css--global.css">
+	<link rel="stylesheet" type="text/css" href="../../../styles/css--blog_article-pitch.css">
+	<title>J + A - Blog</title>
+	<!-- ADJUST THIS WITH JS -->
+	<script type="text/javascript">
+		var ie_lte9 = false;
+
+		// OPTIONAL: SCROLL TO TOP ON REFRESH
+		// window.onbeforeunload = function () {
+		// 	window.scrollTo(0, 0);
+		// };
+		var BLOG_IS_TRUE = true;
+	</script>
+	<script type="text/javascript" src="../../../scripts/jpg-min.js"></script>
+	<script type="text/javascript" src="../../../assets/json/articles.json"></script>
+	<!--[if lte IE 9]>
+		<script>
+			var ie_lte9 = true;
+		</script>
+	<![endif]-->
+	<!-- <div id="preload"></div> -->
+</head>
+<body>
+
+	<div id="main--header" class="hide">
+		<header id="header--header">
+			<nav id="header--nav">
+				<a href="../../../"><div>J + A</div></a>
+				<a href="../../../blog"><div>Blog</div></a>
+				<a href="../../../"><div>Home</div></a>
+			</nav>
+		</header>
+	</div>
+
+	<!-- Calls the Blog_Tiles page -->
+	<main id="container">
+		<article>
+			<!-- Title, date, intro, and Fixed 1st img -->
+			<header id="header_bottom" class="p-relative">
+				<div id="article--title" class="p-absolute white"></div>
+				<div id="article--content" class="p-absolute white">
+					<a href id="article--previous"><div><</div></a>
+					<div id="article--date"></div>
+					<a href id="article--next"><div>></div></a>
+				</div>
+				<!-- <div id="article--date" class="p-absolute white"></div> -->
+				<!-- Intro words and setup -->
+				<div class="article--intro p-absolute white">
+					<p>This is a demo article to show potential layout.  I had fun creating it but I'm looking forward to creating the real content.</p>
+					<p>It's going to be an experience unlike anything anyone I know has experienced.<p>
+					<p>It's gonna be super cool.</p>
+				</div>
+				<img class="article--image w-100 h-auto p-fixed z-negative" />
+			</header>
+			<!-- Split, white bg -->
+			<div id="split_top" class="split bg-white">
+				<div class="left p-relative">
+					<!-- Slideshow -->
+					<div class="slideshow p-absolute">
+						<div class="article--tile p-relative">
+							<img id="slide-1" class="article--image" />
+							<div class="article--copy">Japan is the country where this was taken 5.</div>
+						</div>
+						<div class="article--tile p-relative none">
+							<img id="slide-2" class="article--image" />
+							<div class="article--copy">Japan is the country where this was taken 6.</div>
+						</div>
+						<div class="article--tile p-relative none">
+							<img id="slide-3" class="article--image" />
+							<div class="article--copy">Japan is the country where this was taken 7.</div>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy">Japan is the country where this was taken 2.</div>
+					</div>
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy">Japan is the country where this was taken 3.</div>
+					</div>
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy">Japan is the country where this was taken 4.</div>
+					</div>
+				</div>
+			</div>
+			<!-- Split, black bg -->
+			<div id="split_bottom" class="split bg-black">
+				<div class="left">
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy white">Japan is the country where this was taken 8.</div>
+					</div>
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy white">Japan is the country where this was taken 9.</div>
+					</div>
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy white">Japan is the country where this was taken 10.</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="article--tile">
+						<img class="article--image" />
+						<div class="article--copy white">Japan is the country where this was taken 11.</div>
+					</div>
+				</div>
+			</div>
+			<!-- Zooms in from the right -->
+			<div id="zoom_bottom" class="zoom bg-black">
+				<div class="article--tile w-85 p-relative">
+					<img class="article--image" />
+					<div class="article--copy white">Japan is the country where this was taken 12.</div>
+				</div>
+			</div>
+			<!-- Tags, do not touch -->
+			<footer id="article--tags">Tags: </footer>
+		</article>
+	</main>
+
+	<script type="text/javascript" src="../../../scripts/detect-ie.js"></script>
+	<script type="text/javascript" src="../../../scripts/script--global.js"></script>
+	<script type="text/javascript" src="../../../scripts/script--blog_article-pitch.js"></script>
+</body>
+</html>

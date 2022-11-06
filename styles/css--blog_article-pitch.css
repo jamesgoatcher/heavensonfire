@@ -1,0 +1,187 @@
+article > header {
+	justify-content: center;
+	line-height: 1.5;
+	height: 225vh;
+}
+
+#article--title {
+	font-size: 8vw;
+	z-index: 30000;
+	margin-top: 3em;
+}
+
+#article--content {
+	z-index: 30000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40vw;
+}
+
+	#article--date,
+	#article--previous,
+	#article--next {
+		font-size: 4vw;
+		font-style: italic;
+	}
+
+	#article--previous {
+		margin-right: 4vw;
+		cursor: pointer;
+	}
+
+	#article--next {
+		margin-left: 4vw;
+		cursor: pointer;
+	}
+
+#article--title,
+#article--content {
+	width: 100%;
+	text-align: center;
+}
+
+.article--intro {
+	text-align: center;
+	font-size: 3vw;
+	max-width: 700px;
+	line-height: 1.3;
+	z-index: 30000;
+	margin-top: 20em;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.split {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.left,
+.right {
+	padding-top: 6em;
+}
+
+.left {
+	width: 50%;
+}
+
+.right {
+	width: 50%;
+}
+
+	.article--tile {
+		width: 100%;
+		padding: 2em;
+		-webkit-transition: opacity 0.33s;
+		transition: opacity 0.33s;
+	} .article--tile.hidden {
+		opacity: 0;
+	}
+
+		.article--image {
+			width: inherit;
+		}
+
+		.article--copy {
+			font-size: 0.8em;
+			line-height: 1.3;
+		}
+
+footer {
+	width: 100%;
+	background-color: #fff;
+	font-size: 1em;
+	padding: 3em 0 3em 3em;
+
+}
+
+	.tag--div {
+		cursor: pointer;
+		display: inline-block;
+		color: #333;
+	}
+
+
+/* VARIABLE CLASSES*/
+.tiles-center {
+	justify-content: center; /*Center the images*/
+}
+
+.tiles-space {
+	justify-content: space-between; /*Space between them with top align*/
+}
+
+.tiles-100 {
+	width: 100%; /*Full width, use with w-100 on img tag and m-l on copy*/
+	height: auto;
+}
+
+	.w-85 {
+		width: 85%;
+	}
+
+	.w-100 {
+		width: 100%;
+	}
+
+	.m-l {
+		margin-left: 3em;
+	}
+
+.margin-right {
+	margin-right: 1em;
+}
+
+.height-75 {
+	height: 75%;
+}
+
+.h-auto {
+	height: auto;
+}
+
+.p-relative {
+	position: relative;
+}
+
+.p-absolute {
+	position: absolute;
+}
+
+.p-fixed {
+	position: fixed;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.z-negative {
+	z-index: -1;
+}
+
+/*SLIDESHOW*/
+.slideshow {
+	width: 100%;
+	/*opacity: 0;*/
+	-webkit-transition: bottom 1s, opacity 0.33s;
+	transition: bottom 1s, opacity 0.33s;
+} .slideshow.active {
+	opacity: 1;
+}
+
+
+.to-fixed {
+	position: fixed;
+	bottom: 0;
+	width: 50%;
+	height: 50%;
+}
+
+.to-bottom {
+	bottom: 0;
+	z-index: 30000;
+}
